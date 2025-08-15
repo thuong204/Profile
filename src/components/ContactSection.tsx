@@ -54,7 +54,7 @@ export default function ContactSection() {
             Get In Touch
           </h2>
           <p className="text-lg text-slate-600">
-            Let's create something amazing together!
+            Let&apos;s create something amazing together!
           </p>
         </div>
 
@@ -65,8 +65,9 @@ export default function ContactSection() {
                 Contact Information
               </h3>
               <p className="text-slate-600 mb-8 leading-relaxed">
-                Ready to start your next project? Let's discuss how I can help
-                bring your ideas to life with cutting-edge technology solutions.
+                Ready to start your next project? Let&apos;s discuss how I can
+                help bring your ideas to life with cutting-edge technology
+                solutions.
               </p>
             </div>
 
@@ -139,8 +140,8 @@ export default function ContactSection() {
                   Message Sent Successfully!
                 </h4>
                 <p className="text-slate-600">
-                  Thank you for your message. I'll get back to you as soon as
-                  possible.
+                  Thank you for your message. I&apos;ll get back to you as soon
+                  as possible.
                 </p>
               </div>
             ) : (

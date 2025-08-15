@@ -1,5 +1,8 @@
 "use client";
 
+import { useState, useEffect } from "react";
+import Image from "next/image";
+
 interface HomeSectionProps {
   isVisible: boolean;
 }
@@ -52,26 +55,19 @@ export default function HomeSection({ isVisible }: HomeSectionProps) {
         <div className="mb-8">
           <div className="w-40 h-40 mx-auto mb-8 rounded-full bg-gradient-to-r from-purple-500 via-indigo-500 to-purple-700 p-1 animate-pulse-custom shadow-2xl">
             <div className="w-full h-full rounded-full bg-background flex items-center justify-center overflow-hidden">
-              <img
+              <Image
                 src="/Thuong.jpg"
                 alt="Profile"
+                width={160}
+                height={160}
                 className="w-full h-full object-cover rounded-full"
-                onError={(e) => {
-                  // Fallback to text if image fails to load
-                  e.currentTarget.style.display = "none";
-                  const fallbackText = document.createElement("span");
-                  fallbackText.textContent = "JT";
-                  fallbackText.className =
-                    "text-4xl font-bold bg-gradient-to-r from-purple-400 to-indigo-400 bg-clip-text text-transparent";
-                  e.currentTarget.parentNode?.appendChild(fallbackText);
-                }}
               />
             </div>
           </div>
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold mb-6">
-          Hello, I'm{" "}
+          Hello, I&apos;m{" "}
           <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-indigo-500 bg-clip-text text-transparent">
             Joyce Tran
           </span>

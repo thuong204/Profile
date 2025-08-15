@@ -10,7 +10,6 @@ import ContactSection from "../components/ContactSection";
 import Footer from "../components/Footer";
 
 export default function Home() {
-  const [currentSection, setCurrentSection] = useState("home");
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {

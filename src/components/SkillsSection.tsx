@@ -1,4 +1,3 @@
-import { FaDatabase } from "react-icons/fa";
 export default function SkillsSection() {
   const technologies = {
     languages: [

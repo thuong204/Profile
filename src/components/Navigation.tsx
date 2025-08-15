@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Navigation() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -35,9 +36,11 @@ export default function Navigation() {
             <div className="flex items-center gap-3">
               <div className="relative">
                 <div className="w-12 h-12 rounded-full bg-gradient-to-br from-purple-500 via-indigo-600 to-purple-700 flex items-center justify-center shadow-lg border border-purple-400/30 overflow-hidden">
-                  <img
+                  <Image
                     src="/Thuong.jpg"
                     alt="Profile"
+                    width={48}
+                    height={48}
                     className="w-full h-full object-cover rounded-full"
                   />
                 </div>

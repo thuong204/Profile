@@ -394,7 +394,6 @@ body::before {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
-
 /* Professional Header Elements */
 .search-bar {
   background: rgba(255, 255, 255, 0.1);
