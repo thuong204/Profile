@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Tran Cong Thuong",
-  description: "Tran Cong Thuong | Software Engineer",
+  title: "Joyce Tran",
+  description: "Joyce Tran | Software Engineer",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
