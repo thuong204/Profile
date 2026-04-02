@@ -19,41 +19,23 @@ export default function SkillsSection() {
         width: "w-8",
         height: "h-8",
       },
-      {
-        name: "C++",
-        icon: "https://cdn.simpleicons.org/cplusplus",
-        width: "w-8",
-        height: "h-8",
-      },
-      {
-        name: "Python",
-        icon: "https://cdn.simpleicons.org/python",
-        width: "w-8",
-        height: "h-8",
-      },
-      {
-        name: "Kotlin",
-        icon: "https://cdn.simpleicons.org/kotlin",
-        width: "w-8",
-        height: "h-8",
-      },
-      {
-        name: "PHP",
-        icon: "https://cdn.simpleicons.org/php",
-        width: "w-8",
-        height: "h-8",
-      },
     ],
     frameworks: [
       {
-        name: "NestJS",
-        icon: "https://cdn.simpleicons.org/nestjs",
+        name: "Next.js",
+        icon: "https://img.icons8.com/fluent-systems-filled/512/FFFFFF/nextjs.png",
         width: "w-6",
         height: "h-6",
       },
       {
-        name: "Next.js",
-        icon: "https://img.icons8.com/fluent-systems-filled/512/FFFFFF/nextjs.png",
+        name: "React",
+        icon: "https://cdn.simpleicons.org/react",
+        width: "w-6",
+        height: "h-6",
+      },
+      {
+        name: "NestJS",
+        icon: "https://cdn.simpleicons.org/nestjs",
         width: "w-6",
         height: "h-6",
       },
@@ -64,39 +46,33 @@ export default function SkillsSection() {
         height: "h-6",
       },
       {
-        name: "ReactJS",
-        icon: "https://cdn.simpleicons.org/react",
-        width: "w-6",
-        height: "h-6",
-      },
-      {
-        name: "TailwindCSS",
+        name: "Tailwind CSS",
         icon: "https://cdn.simpleicons.org/tailwindcss",
         width: "w-6",
         height: "h-6",
       },
       {
-        name: "Spring Boot",
-        icon: "https://cdn.simpleicons.org/springboot",
+        name: "SCSS",
+        icon: "https://cdn.simpleicons.org/sass",
         width: "w-6",
         height: "h-6",
       },
       {
-        name: "Laravel",
-        icon: "https://cdn.simpleicons.org/laravel",
+        name: "Handlebars",
+        icon: "https://cdn.simpleicons.org/handlebarsdotjs",
         width: "w-6",
         height: "h-6",
       },
     ],
     apis: [
       {
-        name: "GraphQL",
-        icon: "https://cdn.simpleicons.org/graphql",
+        name: "Hasura GraphQL",
+        icon: "https://cdn.simpleicons.org/hasura",
         width: "w-8",
         height: "h-8",
       },
       {
-        name: "RESTful API",
+        name: "REST API",
         icon: "https://media.lordicon.com/icons/wired/gradient/1330-rest-api.svg",
         width: "w-8",
         height: "h-8",
@@ -110,20 +86,8 @@ export default function SkillsSection() {
         height: "h-8",
       },
       {
-        name: "Hasura",
-        icon: "https://cdn.simpleicons.org/hasura",
-        width: "w-8",
-        height: "h-8",
-      },
-      {
-        name: "MySQL",
-        icon: "https://cdn.simpleicons.org/mysql",
-        width: "w-8",
-        height: "h-8",
-      },
-      {
-        name: "Redis",
-        icon: "https://cdn.simpleicons.org/redis",
+        name: "Supabase",
+        icon: "https://cdn.simpleicons.org/supabase",
         width: "w-8",
         height: "h-8",
       },
@@ -134,8 +98,8 @@ export default function SkillsSection() {
         height: "h-8",
       },
       {
-        name: "SQL Server",
-        icon: "https://img.icons8.com/color/512w/microsoft-sql-server.png",
+        name: "MySQL",
+        icon: "https://cdn.simpleicons.org/mysql",
         width: "w-8",
         height: "h-8",
       },
@@ -148,8 +112,8 @@ export default function SkillsSection() {
         height: "h-12",
       },
       {
-        name: "Cloudinary",
-        icon: "https://cdn.simpleicons.org/cloudinary",
+        name: "Cloudflare",
+        icon: "https://cdn.simpleicons.org/cloudflare",
         width: "w-8",
         height: "h-8",
       },
@@ -168,6 +132,18 @@ export default function SkillsSection() {
         height: "h-8",
       },
       {
+        name: "CI/CD",
+        icon: "https://cdn.simpleicons.org/githubactions",
+        width: "w-8",
+        height: "h-8",
+      },
+      {
+        name: "Nginx",
+        icon: "https://cdn.simpleicons.org/nginx",
+        width: "w-8",
+        height: "h-8",
+      },
+      {
         name: "VPS",
         icon: "https://cdn.simpleicons.org/apache",
         width: "w-8",
@@ -179,58 +155,14 @@ export default function SkillsSection() {
         width: "w-8",
         height: "h-8",
       },
-      {
-        name: "Cursor",
-        icon: "https://img.icons8.com/color/512/cursor-ai.png",
-        width: "w-8",
-        height: "h-8",
-      },
-      {
-        name: "GitHub Actions",
-        icon: "https://cdn.simpleicons.org/githubactions",
-        width: "w-8",
-        height: "h-8",
-      },
     ],
-    protocols: [
+    automation: [
       {
         name: "MCP",
         icon: "https://cdn.simpleicons.org/protocolsio",
         width: "w-8",
         height: "h-8",
       },
-      {
-        name: "TCP",
-        icon: "https://cdn.simpleicons.org/wireshark",
-        width: "w-8",
-        height: "h-8",
-      },
-      {
-        name: "UDP",
-        icon: "https://cdn.simpleicons.org/wireshark",
-        width: "w-8",
-        height: "h-8",
-      },
-      {
-        name: "HTTP/HTTPS",
-        icon: "https://cdn.simpleicons.org/httpie",
-        width: "w-8",
-        height: "h-8",
-      },
-      {
-        name: "SMTP",
-        icon: "https://cdn.simpleicons.org/minutemailer",
-        width: "w-8",
-        height: "h-8",
-      },
-      {
-        name: "FTP",
-        icon: "https://cdn.simpleicons.org/filezilla",
-        width: "w-8",
-        height: "h-8",
-      },
-    ],
-    automation: [
       {
         name: "n8n",
         icon: "https://cdn.simpleicons.org/n8n",
@@ -395,12 +327,12 @@ export default function SkillsSection() {
             </div>
           </div>
 
-          {/* Automation Tools */}
+          {/* Automation */}
           <div>
             <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-red-600 to-pink-600 bg-clip-text text-transparent text-center">
-              ⚙️ Automation Tools
+              ⚙️ Automation
             </h3>
-            <div className="flex flex-wrap justify-center gap-2">
+            <div className="flex flex-wrap justify-center gap-10">
               {technologies.automation.map((tech) => (
                 <span
                   key={tech.name}

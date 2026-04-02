@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Joyce Tran",
-  description: "Joyce Tran | Software Engineer",
+  title: "Tran Cong Thuong",
+  description:
+    "Tran Cong Thuong | Software Engineer — Next.js, React, NestJS, full-stack web development",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",

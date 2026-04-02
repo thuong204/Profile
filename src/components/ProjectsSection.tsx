@@ -3,6 +3,7 @@ interface Project {
   description: string;
   tech: string[];
   image: string;
+  url?: string;
 }
 
 interface ProjectsSectionProps {
@@ -89,9 +90,20 @@ export default function ProjectsSection({ projects }: ProjectsSectionProps) {
                     ))}
                   </div>
 
-                  <button className="w-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white py-2 px-4 rounded-lg font-semibold hover:from-blue-600 hover:to-indigo-600 transform hover:scale-102 transition-all duration-300 shadow-lg hover:shadow-blue-500/20 h-10">
-                    ✨ View Details
-                  </button>
+                  {project.url ? (
+                    <a
+                      href={project.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white py-2 px-4 rounded-lg font-semibold hover:from-blue-600 hover:to-indigo-600 transform hover:scale-102 transition-all duration-300 shadow-lg hover:shadow-blue-500/20 h-10 flex items-center justify-center"
+                    >
+                      ✨ Visit site
+                    </a>
+                  ) : (
+                    <button className="w-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white py-2 px-4 rounded-lg font-semibold hover:from-blue-600 hover:to-indigo-600 transform hover:scale-102 transition-all duration-300 shadow-lg hover:shadow-blue-500/20 h-10">
+                      ✨ View Details
+                    </button>
+                  )}
                 </div>
               </div>
             </div>

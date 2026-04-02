@@ -82,7 +82,7 @@ export default function AboutSection() {
               </div>
               <div className="text-center p-6 glass rounded-xl">
                 <div className="text-3xl font-bold text-[var(--secondary)] mb-2">
-                  1+
+                  2+
                 </div>
                 <div className="text-gray-600 dark:text-gray-300">
                   Years Experience

@@ -47,7 +47,7 @@ export default function Navigation() {
               </div>
               <div className="block">
                 <h2 className="text-xl font-bold animated-gradient-text tracking-wide">
-                  Joyce Tran
+                  Tran Cong Thuong
                 </h2>
                 <p className="text-sm text-purple-300 font-medium">
                   Software Engineer

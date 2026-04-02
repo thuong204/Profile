@@ -1,6 +1,5 @@
 "use client";
 
-import { useState, useEffect } from "react";
 import Image from "next/image";
 
 interface HomeSectionProps {
@@ -69,7 +68,7 @@ export default function HomeSection({ isVisible }: HomeSectionProps) {
         <h1 className="text-5xl md:text-7xl font-bold mb-6">
           Hello, I&apos;m{" "}
           <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-indigo-500 bg-clip-text text-transparent">
-            Joyce Tran
+            Tran Cong Thuong
           </span>
         </h1>
 
@@ -78,8 +77,9 @@ export default function HomeSection({ isVisible }: HomeSectionProps) {
         </p>
 
         <p className="text-lg mb-8 text-purple-300 max-w-2xl mx-auto">
-          I craft elegant solutions with cutting-edge technology and create
-          mystical digital experiences that push the boundaries of innovation
+          Motivated developer focused on innovative, efficient solutions and
+          great user experiences — clean, maintainable code with modern web
+          technologies.
         </p>
 
         {/* Quick Stats */}
@@ -105,19 +105,19 @@ export default function HomeSection({ isVisible }: HomeSectionProps) {
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             <span className="px-4 py-2 bg-white/10 backdrop-blur-sm border border-purple-300/20 rounded-full text-sm text-purple-200 hover:bg-purple-500/20 transition-all">
-              React
+              TypeScript
             </span>
             <span className="px-4 py-2 bg-white/10 backdrop-blur-sm border border-indigo-300/20 rounded-full text-sm text-purple-200 hover:bg-indigo-500/20 transition-all">
               Next.js
             </span>
             <span className="px-4 py-2 bg-white/10 backdrop-blur-sm border border-cyan-300/20 rounded-full text-sm text-purple-200 hover:bg-cyan-500/20 transition-all">
-              TypeScript
+              React
             </span>
             <span className="px-4 py-2 bg-white/10 backdrop-blur-sm border border-green-300/20 rounded-full text-sm text-purple-200 hover:bg-green-500/20 transition-all">
-              Node.js
+              NestJS
             </span>
             <span className="px-4 py-2 bg-white/10 backdrop-blur-sm border border-yellow-300/20 rounded-full text-sm text-purple-200 hover:bg-yellow-500/20 transition-all">
-              Python
+              Java
             </span>
           </div>
         </div>

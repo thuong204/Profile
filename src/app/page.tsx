@@ -18,6 +18,21 @@ export default function Home() {
 
   const projects = [
     {
+      title: "Convercy",
+      description:
+        "Shopify localization suite: multi-currency pricing, AI-powered translation, IP-based language and currency switching, and native checkout integration — helping merchants sell globally.",
+      tech: [
+        "Next.js",
+        "Shopify",
+        "Polaris",
+        "TypeScript",
+        "REST API",
+      ],
+      image:
+        "https://convercy.app/cdn/shop/t/2/assets/go-global-width-no-barriers.png?v=164616017436643079981766373077",
+      url: "https://convercy.app/",
+    },
+    {
       title: "Da Nang Real Estate Platform",
       description:
         "Advanced real estate management system in Da Nang allowing buying, selling, and renting properties with modern technology stack",

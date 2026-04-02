@@ -24,12 +24,10 @@ export default function Footer() {
               Tran Cong Thuong
             </h3>
             <p className="text-slate-300 mb-6 leading-relaxed">
-              Software Engineer passionate about creating innovative web
-              solutions. Specializing in modern technologies like React,
-              Node.js, and cloud services. Experienced in building scalable
-              applications, GraphQL, RESTful APIs, and responsive user
-              interfaces. Proficient in TypeScript, NestJs, Next.js, MongoDB,
-              PostgreSQL, and AWS.
+              Software engineer focused on modern web technologies — TypeScript,
+              JavaScript, React, Next.js, NestJS, Hasura GraphQL, REST APIs, and
+              cloud platforms (AWS, Cloudflare). Building efficient, maintainable
+              full-stack solutions.
             </p>
           </div>
 
@@ -144,7 +142,9 @@ export default function Footer() {
 
             {/* GitHub */}
             <a
-              href="#"
+              href="https://github.com/thuong204"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-16 h-16 bg-gradient-to-r from-gray-700 to-gray-800 rounded-2xl flex items-center justify-center hover:scale-110 transition-all duration-300 shadow-lg hover:shadow-gray-700/50"
             >
               <svg
@@ -219,7 +219,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
               <p className="text-slate-300">
-                &copy; 2025 Tran Cong Thuong. All rights reserved.
+                &copy; 2026 Tran Cong Thuong. All rights reserved.
               </p>
             </div>
             <div className="flex space-x-6">
