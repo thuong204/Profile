@@ -101,7 +101,7 @@ export default function ProjectsSection({ projects }: ProjectsSectionProps) {
                     </a>
                   ) : (
                     <button className="w-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white py-2 px-4 rounded-lg font-semibold hover:from-blue-600 hover:to-indigo-600 transform hover:scale-102 transition-all duration-300 shadow-lg hover:shadow-blue-500/20 h-10">
-                      ✨ View Details
+                      ✨ View Details  
                     </button>
                   )}
                 </div>
